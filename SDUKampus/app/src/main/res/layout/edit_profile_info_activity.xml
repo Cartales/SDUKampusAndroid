@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutEditProfileInfo"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp">
+        <ImageView
+            android:id="@+id/ProfileInfoPhoto"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerInParent="true"/>
+        <TextView
+            android:id="@+id/editProfilePhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Düzenle"
+            android:textSize="15dp"
+            android:onClick="onClick"
+            android:layout_below="@+id/ProfileInfoPhoto"
+            android:layout_toRightOf="@+id/ProfileInfoPhoto"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/ProfileInfoName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="asdasdasd"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/relativeLayoutEditProfileInfo"/>
+    <Button
+        android:id="@+id/logoutProfileInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="logout"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"/>
+
+
+
+</RelativeLayout>

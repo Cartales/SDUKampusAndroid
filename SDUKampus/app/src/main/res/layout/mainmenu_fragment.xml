@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:id="@+id/weather"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/weatherIcon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/icon_na"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/weatherTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Temperature"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:padding = "10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/weatherLocation" />
+    <TextView
+        android:id="@+id/weatherCondition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Condition"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:padding = "10dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/weatherLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weatherLocation"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:padding = "10dp"
+        android:layout_below="@+id/weatherTemperature"
+        android:layout_alignEnd="@+id/weatherCondition" />
+
+</RelativeLayout>
+    <TextView
+        android:id="@+id/captionNews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/newsCaption"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:padding = "10dp"
+        android:layout_below="@+id/weather" />
+<RelativeLayout
+    android:id="@+id/newsRelative"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/captionNews">
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+</RelativeLayout>
+
+</RelativeLayout>

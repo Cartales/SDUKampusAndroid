@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background">
+    <RelativeLayout
+        android:id="@+id/lBusCaption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:id="@+id/busClickImageFrame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/ivBusClickNumberImage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/blank_circle"
+                android:padding="15dp" />
+            <TextView
+                android:id="@+id/tvBusClickNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="47"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/sduKirmizi"/>
+        </FrameLayout>
+        <TextView
+            android:id="@+id/tvBusClickTimeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saat:"
+            android:textSize="20dp"
+            android:layout_toRightOf="@id/busClickImageFrame"
+            android:paddingTop="10dp"/>
+        <TextView
+            android:id="@+id/tvBusClickTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saat bilgisi"
+            android:textSize="16dp"
+            android:layout_below="@+id/tvBusClickTimeTitle"
+            android:layout_toRightOf="@+id/busClickImageFrame"
+            android:paddingTop="10dp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvBusClickRouteTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Otobüs Güzergah Bilgisi"
+        android:textSize="20dp"
+        android:layout_below="@+id/lBusCaption"/>
+
+
+<RelativeLayout
+    android:id="@+id/rlBusItemContent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/tvBusClickRouteTitle">
+
+</RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

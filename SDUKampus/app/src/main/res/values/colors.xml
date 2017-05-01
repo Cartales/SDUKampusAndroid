@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="sduTurkuaz">#00A39F</color>
+    <color name="sduKirmizi">#E91C23</color>
+    <color name="sduAcikSari">#D9E2DE</color>
+    <color name="sduBeyaz">#FFFFFF</color>
+    <color name="sduYesil">#008582</color>
+    <color name="sduText">#d4d4d4</color>
+    <color name="sduDeneme">#352614</color>
+    <color name="light_yellow">#fffdd2</color>
+
+    <color name="refresh_progress_1">#0fffef</color>
+    <color name="refresh_progress_2">#ed14be</color>
+    <color name="refresh_progress_3">#132bb6</color>
+</resources>

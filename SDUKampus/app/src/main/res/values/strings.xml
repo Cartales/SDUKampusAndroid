@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SDU Kampus</string>
+    <string name="Temperature">Temperature</string>
+    <string name="Location">Location</string>
+    <string name="weatherLocation">Location</string>
+    <string name="Condition">Condition</string>
+    <string name="newsCaption">Duyurular</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="busNumber">Number</string>
+    <string name="busTime">BusTime</string>
+    <string name="busRoute">BusRoute</string>
+    <string name="poolTime">PoolTime</string>
+    <string name="poolGender">PoolGender</string>
+    <string name="poolClean">Temizlik Bakım Günü</string>
+</resources>
