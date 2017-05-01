@@ -24,17 +24,6 @@
             android:layout_below="@id/profile_photo"
             android:layout_centerInParent="true"
             android:textColor="@color/sduBeyaz"/>
-        <TextView
-            android:id="@+id/editProfile"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Düzenle"
-            android:textSize="20dp"
-            android:textColor="@color/sduBeyaz"
-            android:layout_below="@+id/profile_photo"
-            />
-
-
     </RelativeLayout>
 
 </RelativeLayout>

@@ -16,6 +16,7 @@
         <item name="android:background">@color/sduTurkuaz</item>
     </style>
     <style name="NoTitle" parent="Theme.AppCompat.NoActionBar"></style>
+
     <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">#3F51B5</item>
         <!--   darker variant for the status bar and contextual app bars -->

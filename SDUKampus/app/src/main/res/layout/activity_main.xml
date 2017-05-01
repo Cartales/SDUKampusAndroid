@@ -9,6 +9,7 @@
     tools:context="com.example.zulkuf.sdukampus.Home">
 
     <android.support.design.widget.NavigationView
+        android:id="@+id/navigationView"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         app:menu="@menu/nav_menu"

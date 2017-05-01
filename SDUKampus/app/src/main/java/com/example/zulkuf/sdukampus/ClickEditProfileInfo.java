@@ -32,7 +32,6 @@ public class ClickEditProfileInfo extends AppCompatActivity {
         setContentView(R.layout.nav_header);
         imageView = (ImageView) findViewById(R.id.profile_photo);
         profile_name = (TextView) findViewById(R.id.profileName);
-        editProfileInfo = (TextView) findViewById(R.id.editProfile);
 
         Intent intent = new Intent(getApplicationContext(), EditProfileInfoActivity.class);
 

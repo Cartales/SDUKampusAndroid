@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/editProfileInfo"
+        android:title="Düzenle"
+        android:icon="@drawable/ic_settings_black_24dp"
+        >
+    </item>
+
+
     <item android:id="@+id/logout"
         android:title="Logout"
         android:icon="@drawable/ic_exit_to_app_black_24dp">
